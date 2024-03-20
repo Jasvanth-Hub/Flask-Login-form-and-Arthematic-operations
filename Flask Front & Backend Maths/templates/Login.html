@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/Login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="form-section">
+        <h1>Login form</h1>
+        <form action="/login-form" method="POST">
+            <div>
+                <label for="fname">First Name : </label>
+                <input type="text" name="fname" id="fname">
+            </div>
+            <div>
+                <label for="lname">Last Name : </label>
+                <input type="text" name="lname" id="lname">
+
+            </div>
+            <div class="email">
+                <label for="email">Email : </label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="age">
+
+                <label for="age">Age : </label>
+                <input type="number" name="age" id="age">
+            </div>
+            <div class="phone">
+                <label for="phone">Phone no : </label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+
+            <input id="submit" type="submit">
+        </form>
+    </div>
+</body>
+
+</html>

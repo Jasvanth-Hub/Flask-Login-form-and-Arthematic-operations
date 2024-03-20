@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: bisque;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.form-section{
+    padding: 1%;
+    width: 50%;
+    margin: 1% auto;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    border: 1px solid whitesmoke;
+    background-color: rgba(255, 255, 255, 0.644);
+    border-radius: 6px;
+}
+.email{
+    box-sizing: border-box;
+    padding-left: 35px;
+}
+
+.age{
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+
+.phone{
+    box-sizing: border-box;
+    padding-left: 13px;
+}
+
+.form-section h1{
+    text-align: center;
+    text-decoration: underline;
+    margin: 2% 0;
+}
+
+.form-section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form-section form div{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+    width: 100%;
+}
+
+.form-section input{
+    margin-left: 5px;
+    padding: 4px;
+    width: 50%;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 400;
+}
+
+#submit{
+    box-sizing: border-box;
+    padding: 1%;
+    background-color: rgb(100, 100, 218);
+    color: white;
+    border-radius: 3px;
+    margin-top: 2%;
+    width: 25%;
+    font-size: 20px;
+}
+
+
+
